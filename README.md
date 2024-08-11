@@ -1,2 +1,2 @@
 # exercises_college
-exercícios da faculdade
+exercícios da faculdade (linguagem c)
