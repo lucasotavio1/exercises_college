@@ -1,6 +1,6 @@
-// Desenvolver um programa em C que contenha uma função que recebe por parâmetro um valor inteiro correspondente a um tempo em
-// segundos e devolve ao programa principal o tempo em horas, minutos e segundos. O programa principal exibirá uma mensagem
-// informando o tempo calculado em horas, minutos e segundos.
+//Desenvolver um programa em C que contenha uma função que recebe por parâmetro um valor inteiro correspondente a um tempo em
+//segundos e devolve ao programa principal o tempo em horas, minutos e segundos. O programa principal exibirá uma mensagem
+//informando o tempo calculado em horas, minutos e segundos.
 #include <stdio.h>
 #include <stdlib.h>
 void f1(int seg, int *hr, int *min, int *s){
@@ -20,36 +20,34 @@ int main()
  return 0;
 }
 
-
-// Desenvolver um programa em C que contenha uma função que recebe por parâmetro dois valores inteiros, A e B, e realiza a troca entre
-// eles, ou seja, A passará a possuir o valor que estava em B, e B passará a possuir o valor que estava em A. O programa principal exibirá
-// os valores trocados.
+//Desenvolver um programa em C que contenha uma função que recebe por parâmetro dois valores inteiros, A e B, e realiza a troca entre
+//eles, ou seja, A passará a possuir o valor que estava em B, e B passará a possuir o valor que estava em A. O programa principal exibirá
+//os valores trocados.
 #include <stdio.h>
 #include <stdlib.h>
-void f1(int AA, int BB, int *a, int *b){
- *a=BB;
- *b=AA;
+void f1(int aA, int aB, int *a, int *b){
+ *a=bB;
+ *b=aA;
 }
 int main()
 {
- int AA;
- int BB;
+ int aA;
+ int aB;
  int a;
  int b;
  printf("Informe um valor A: ");
- scanf("%d", &AA);
+ scanf("%d", &aA);
  printf("Informe um valor B: ");
- scanf("%d", &BB);
- f1(AA, BB, &a, &b);
+ scanf("%d", &bB);
+ f1(aA, bB, &a, &b);
  printf("Valores A e B trocado: %d %d", a, b);
  return 0;
 }
 
-
-// Desenvolver um programa em C que contenha uma função que recebe por parâmetro a hora de inicio e a hora de término de um jogo,
-// ambas subdivididas em 2 valores distintos: horas e minutos. A função deve retornar a duração do jogo em horas e minutos, considerando
-// que o tempo máximo de duração de um jogo é de 24 horas e que o jogo pode começar em um dia e terminar no outro. O programa
-// principal exibirá uma mensagem informando a duração calculada.
+//Desenvolver um programa em C que contenha uma função que recebe por parâmetro a hora de inicio e a hora de término de um jogo,
+//ambas subdivididas em 2 valores distintos: horas e minutos. A função deve retornar a duração do jogo em horas e minutos, considerando
+//que o tempo máximo de duração de um jogo é de 24 horas e que o jogo pode começar em um dia e terminar no outro. O programa
+//principal exibirá uma mensagem informando a duração calculada.
 #include <stdio.h>
 #include <stdlib.h>
 void duracao(int hI, int hImin, int hT, int hTmin, int *hr, int *min){
