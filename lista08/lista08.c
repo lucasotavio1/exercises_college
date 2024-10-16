@@ -1,5 +1,5 @@
-// Implemente um programa que contenha uma estrutura para descrever os livros de uma loja, contendo os seguintes campos:
-// • código: inteiro
+//Implemente um programa que contenha uma estrutura para descrever os livros de uma loja, contendo os seguintes campos:
+//• código: inteiro
 //• título: char[30]
 //• autor: char[30]
 //• estilo: char[30]
